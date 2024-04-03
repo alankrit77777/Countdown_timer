@@ -1,0 +1,47 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  /* background-color: #f0f0f0; */
+}
+
+.CountdownTimer {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="datetime-local"] {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.CountdownTimer div {
+  font-size: 24px;
+}
+
+.unit-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.unit {
+  width: calc(25% - 10px);
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
+
+.unit span {
+  font-size: 24px;
+}
